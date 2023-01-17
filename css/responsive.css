@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:09 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0px   XS - NO NAME
+
+
+> 576px SM - small devices
+
+
+
+> 768px MD  - medium devices
+
+
+> 992px  LG    large devices
+
+
+
+> 1200px  XL   extra large devices
+
+*/
+@media(max-width:450px){
+
+
+
+    .section-products .p-div{
+        font-size: 12px;
+        bottom: 0px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .section-products .button{
+        font-size: 12px;
+    }
+
+}
+
+/*****************************************************************************/
+
+@media(min-width:576px){
+
+}
+
+
+
+@media(min-width:768px){
+
+}
+
+
+@media(min-width:992px){
+
+    .section-home{
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .section-services{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    .section-prices{
+        margin-bottom: 150px;
+    }
+
+    .section-home p{
+        font-size: 1.1rem;
+    }
+
+    .section-services .p-about{
+        font-size: 1.1rem;
+    }
+
+    .product-section-bonitet p{
+        width: 60%;
+    }
+    
+    .profaktura textarea{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media(min-width:1200px){
+
+    .section-products .p-div{
+        font-size: 15px;
+    }
+
+    .section-home{
+        padding-top: 150px;
+        padding-bottom: 200px;
+    }
+
+    .section-services{
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .section-prices{
+        margin-bottom: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+

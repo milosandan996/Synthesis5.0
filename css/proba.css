@@ -1,0 +1,663 @@
+/*****************************************************************************/
+/************************************GLOBAL************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
+/*
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+*/
+img{
+    max-width: 100%;
+}
+
+.clearfix:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+a{
+    text-decoration: none !important;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+}
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+/*HEADER START*/
+
+header{
+    background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(27,52,233);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgba(255,255,0,255);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active:hover{
+    color: rgba(255,255,0,255);
+}
+
+header li{
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+/*HEADER END*/
+/*****************************************************************************/
+/*****************************************************************************/
+
+/*MAIN START*/
+
+.fa-lock{
+    float: right;
+    font-size: 1.2rem;
+    color: rgba(24,50,238,255);
+    padding: 10px;
+}
+
+main{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-home{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-home-inner{
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+.section-home p{
+    font-family: 'Lato', sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+.section-services .p-about{
+    font-family: 'Lato', sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+.section-home h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    color: rgba(24,50,238,255);
+}
+
+.button{
+    border: 1px solid gray !important;
+    color: rgb(27,52,233);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.section-home .button{
+    color: rgb(27,52,233);
+}
+
+.section-home .button:hover{
+    color: rgba(255,255,0,255);
+    background-color: rgb(27,52,233);
+}
+
+.button:hover{
+    color: white;
+    background-color: black;
+}
+
+.h2-style{
+    color: rgb(24,50,238);
+    font-family: 'Anton', sans-serif;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+.section-products .row{
+    background-color: rgba(255,255,255,0.7);
+    padding: 5rem;
+    border-radius: 20px;
+}
+
+.section-products .p-div{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    margin: auto;
+    color: white;
+    background-color: black;
+    padding: 20px 10px;
+    opacity: 60%;
+}
+
+
+.section-products .p-rel{
+    position: relative;
+}
+
+.section-products .button{
+    border: 1px solid gray !important;
+    color: rgb(24,50,238);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+.section-products .button:hover{
+    color: black !important;
+    background-color: white;
+}
+
+.section-products .p-rel:hover .p-div{
+    display: block;
+}
+
+.section-products img{
+    transition: all 0.5s ease-in;
+}
+
+.section-products .p-rel:hover img{
+    transform: scale(1.2);
+}
+
+.section-products .p-div{
+    left: 10px;
+    right: 10px;
+}
+
+.section-products .button:hover{
+    color: rgba(255,255,0,255)!important;
+    background-color: rgb(27,52,233);
+}
+
+.section-services .button:hover{
+    color: rgba(255,255,0,255);
+    background-color: rgb(27,52,233);
+}
+
+.section-services{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-services img{
+    transition: all 0.5s ease-in;
+}
+
+.section-services .div-scale:hover img{
+    transform: scale(1.2);
+}
+
+.section-services .row{
+    background-color: rgba(255,255,255,0.7);
+    padding: 5rem;
+    border-radius: 20px;
+}
+
+.section-services p{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.section-prices{
+    margin-bottom: 100px;
+}
+
+.section-prices th:first-of-type{
+    background-color: black;
+}
+
+.section-prices thead th{
+    background-color: black;
+}
+
+.section-prices th{
+    color: rgb(27,52,233);
+    font-size: 1.1rem;
+}
+
+.section-prices td{
+    color: rgba(255,255,0,255);
+}
+
+.section-contact iframe{
+    width: 100%;
+}
+
+.section-contact h3{
+    font-family: 'Anton', sans-serif;
+    color: rgb(27,52,233);
+    padding-top: 20px;
+}
+
+.section-contact h4{
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 20px;
+    color: rgb(27,52,233);
+}
+
+.section-contact article i{
+    padding-right: 10px;
+}
+
+.section-contact .section-contact-title{
+    background-color: black;
+}
+
+.section-contact a{
+    text-decoration: none;
+}
+
+.section-contact a,
+.section-contact p{
+    color: rgba(255,255,0,255);
+}
+
+.section-contact i{
+    color: rgb(27,52,233);
+}
+
+.section-contact .art-lok{
+    background-color: black;
+}
+
+
+/*MAIN END*/
+/*****************************************************************************/
+/*****************************************************************************/
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    color: rgba(255,255,0,255);
+}
+
+.back-to-top{
+    bottom: 30px;
+    right: 30px;
+    font-size: 2.5rem;
+    color: rgba(255,255,0,255);
+    background-color: rgb(27,52,233);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+
+.back-to-top:hover{
+    color: rgb(27,52,233);
+    background-color: rgba(255,255,0,255);
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/********************************PRODUCTS HTML********************************/
+/*****************************************************************************/
+/*****************************************************************************/
+
+.products-h1{
+    color: rgb(27,52,233);
+    font-family: 'Anton', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    letter-spacing: 0.3rem;
+}
+
+.product-section-separacija{
+    padding-bottom: 100px;
+}
+
+.product-section-separacija h3{
+    color: rgb(27,52,233);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.product-section-separacija p{
+    display: inline-block;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.product-section-separacija div{
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.products-section-bonitet h3{
+    color: rgb(27,52,233);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.product-section-bonitet{
+    padding-bottom: 100px;
+}
+
+.product-section-bonitet h3{
+    color: rgb(27,52,233);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.product-section-bonitet p{
+    line-height: 2rem;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.product-section-bonitet div{
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.product-section-materijal{
+    padding-bottom: 100px;
+}
+
+.product-section-materijal h3{
+    color: rgb(27,52,233);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.product-section-materijal h4{
+    padding-bottom: 15px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.product-section-materijal p{
+    line-height: 2rem;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.product-section-materijal div{
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.product-section-materijal article{
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/*******************************PROFAKTURA HTML********************************/
+/*****************************************************************************/
+/*****************************************************************************/
+.profaktura-div{
+    margin: 0 !important;
+}
+
+.profaktura-h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    color: rgba(24,50,238,255);
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.profaktura-main{
+    padding-top: 50px;
+}
+
+.profaktura-h3{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    color: rgba(24,50,238,255);
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.profaktura-main button{
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.profaktura-main label{
+    color: rgba(24,50,238,255);
+    background-color: rgba(255,255,255,0.7);
+    display: inline-block;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/********************************KOMATSUWA380 HTML*****************************/
+/*****************************************************************************/
+/*****************************************************************************/
+
+.section-table{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-table th{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.section-table td{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.komatsu h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    color: rgba(24,50,238,255);
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 20px;
+    margin-bottom:  100px;
+}
+
+.komatsu table{
+    background: rgba( 255, 255, 255, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.komatsu .date,
+.komatsu .hours{
+    background: rgba( 79, 121, 66, 0.6 );
+}
+
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+/**************************REDIRECT and further*******************************/
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+.category-submenu{
+    display: none;
+}
+
+.list-group-item span{
+    float: right;
+}
+
+li .category-submenu a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+ul .list-group-item{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid;
+}
+
+ul .list-group-item h2{
+    color: rgba(24,50,238,255);
+}
+
+.category-submenu div{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.min-w{
+    min-height: 500px;
+}
+
+.aaaaa{
+    border-radius: 20px;
+}
+
+.transportprices table{
+    display: inline-table;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+@keyframes slideLeft{
+    0%{
+        opacity:0;
+        transform:translateX(50px);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+.slide-left{
+    animation: slideLeft 1s linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes slideRight{
+    0%{
+        opacity:0;
+        transform:translateX(-50px);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+.slide-right{
+    animation: slideRight 1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideTop{
+    0%{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+.slide-top{
+    animation: slideTop 1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideBottom{
+    0%{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+.slide-bottom{
+    animation: slideBottom 1s linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes zoom {
+    0%{
+        opacity:0;
+        transform:scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform:scale(1);
+    }
+}
+
+.zoom{
+    animation: zoom 1s linear;
+    animation-fill-mode: forwards;
+}
+
+.animation{
+    position: relative;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
